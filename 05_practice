@@ -1,0 +1,23 @@
+# add 2 no.
+# a = 56
+# b = 64
+# print("the sum of a+b: ", a+b)
+
+# Reminder
+# a = 7
+# b = 2
+# print("reminder when a is divided by b is", a%b)
+
+# average
+a = input("Enter 1st no.")
+b = input("Enter 2st no.")
+a = int (a)
+b = int (b)
+avg =(a+b)/2
+print("The average of a and b is", avg)
+
+# square no
+a = input("Enter 1st no.")
+a = int (a)
+squ = a*a
+print("The square no is", squ)

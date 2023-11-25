@@ -1,0 +1,9 @@
+l1 = [1,4,5,3,6,8]
+# l1.sort() # sorts the list
+# l1.reverse() #reverses the list
+# l1.append(45) #adds at the end of the list
+# l1.append(65) #adds at the end of the list
+# l1.insert(2, 9) #inserts 9  at index list
+#  l1.pop(2) # removes at index two
+l1.remove(3) # removes 3 from the list
+print(l1)

@@ -1,0 +1,44 @@
+# 1
+def max(num1, num2, num3):
+    if(num1>num2):
+        if(num1>num3):
+            return num1
+        else:
+            return num3
+    else:
+        if(num2>num3):
+            return num2
+        else:
+            return num3
+m = max(13, 67, 99)
+print("The value of the max is " + str(m))
+
+# 2
+def farch(cel):
+    return(cel*(9/5)) + 32
+
+c = 32
+f = farch(c)
+print("Fahreheit Temp is " + str(f))
+
+# 3
+print("hello", end =" ")
+print("how", end=" ")
+print("are", end=" ")
+print("you?", end=" ")
+
+# 4 
+n = 3
+for i in range(n):
+    print("*" * (n-i))
+
+# 5
+def remove_and_split(string, word):
+    newStr = string.replace(word, "")
+    return newStr.strip()
+
+this = "  AK is a good  "
+n = remove_and_split(this, "AK")
+print(n)
+# print(this)
+# print(this.strip())
